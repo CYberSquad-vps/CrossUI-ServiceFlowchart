@@ -72,8 +72,8 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"ctl_rect25")
                 .setSvgTag("Shapes:Rect")
                 .setAttr({
-                    "x":1,
-                    "y":1,
+                    "x":38,
+                    "y":-82,
                     "r":22,
                     "width":820,
                     "height":1020,
@@ -1234,6 +1234,16 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.MQTT")
                 .setHost(host,"xui_mqtt1")
+            );
+            
+            append(
+                xui.create("xui.MessageService")
+                .setHost(host,"xui_messageservice1")
+            );
+            
+            append(
+                xui.create("xui.MessageService")
+                .setHost(host,"xui_messageservice2")
             );
             
             return children;
