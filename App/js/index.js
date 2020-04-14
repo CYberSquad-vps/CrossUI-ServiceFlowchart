@@ -23,7 +23,7 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("10.833333333333334em")
                 .setCaption("Applications")
                 .setToggleBtn(true)
-                );
+            );
             
             host.ctl_panel5.append(
                 xui.create("xui.UI.List")
@@ -56,13 +56,16 @@ xui.Class('App', 'xui.Module',{
                         "type":"other",
                         "target":"msg",
                         "args":[
-                            undefined,"{args[1].caption}'s application",200,5000
+                            undefined,
+                            "{args[1].caption}'s application",
+                            200,
+                            5000
                         ],
                         "method":"message",
                         "event":2
                     }
                 ])
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.rect")
@@ -78,7 +81,7 @@ xui.Class('App', 'xui.Module',{
                     "stroke-dasharray":"- ",
                     "fill":"none"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.path")
@@ -90,7 +93,7 @@ xui.Class('App', 'xui.Module',{
                     "fill":"none",
                     "stroke-dasharray":"--.."
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.path")
@@ -102,7 +105,7 @@ xui.Class('App', 'xui.Module',{
                     "fill":"none",
                     "stroke-dasharray":"--.."
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.path")
@@ -114,7 +117,7 @@ xui.Class('App', 'xui.Module',{
                     "fill":"none",
                     "stroke-dasharray":"--.."
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.path")
@@ -126,7 +129,7 @@ xui.Class('App', 'xui.Module',{
                     "fill":"none",
                     "stroke-dasharray":"--.."
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -139,7 +142,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"bold"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -152,7 +155,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"bold"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -165,7 +168,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"bold"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.image")
@@ -177,7 +180,7 @@ xui.Class('App', 'xui.Module',{
                     "width":64,
                     "height":64
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -190,7 +193,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.image")
@@ -202,7 +205,7 @@ xui.Class('App', 'xui.Module',{
                     "width":64,
                     "height":64
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -215,7 +218,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.image")
@@ -227,7 +230,7 @@ xui.Class('App', 'xui.Module',{
                     "width":64,
                     "height":64
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -240,7 +243,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.image")
@@ -252,7 +255,7 @@ xui.Class('App', 'xui.Module',{
                     "width":64,
                     "height":64
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -265,7 +268,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.rectComb")
@@ -302,7 +305,7 @@ xui.Class('App', 'xui.Module',{
                         "event":1
                     }
                 ])
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.rectComb")
@@ -340,7 +343,7 @@ xui.Class('App', 'xui.Module',{
                         "onOK":2
                     }
                 ])
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.pathComb")
@@ -359,7 +362,7 @@ xui.Class('App', 'xui.Module',{
                         "text":"Begin to \nservice\ncoverage"
                     }
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.pathComb")
@@ -378,7 +381,7 @@ xui.Class('App', 'xui.Module',{
                         "text":"Hiring system\ndeployed service \nengineers"
                     }
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.rectComb")
@@ -400,7 +403,7 @@ xui.Class('App', 'xui.Module',{
                         "text":"Online software\nsolution"
                     }
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.pathComb")
@@ -419,7 +422,7 @@ xui.Class('App', 'xui.Module',{
                         "text":"Hardware\nproblem"
                     }
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.pathComb")
@@ -438,7 +441,7 @@ xui.Class('App', 'xui.Module',{
                         "text":"Problem\nresolved"
                     }
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.pathComb")
@@ -457,7 +460,7 @@ xui.Class('App', 'xui.Module',{
                         "text":"Judge \nwhether third service\n provider  issues"
                     }
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.pathComb")
@@ -476,7 +479,7 @@ xui.Class('App', 'xui.Module',{
                         "text":"Customer need \nsite services?"
                     }
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.pathComb")
@@ -495,7 +498,7 @@ xui.Class('App', 'xui.Module',{
                         "text":"Problem record"
                     }
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.pathComb")
@@ -514,7 +517,7 @@ xui.Class('App', 'xui.Module',{
                         "text":"System engineers\navailable"
                     }
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.pathComb")
@@ -533,7 +536,7 @@ xui.Class('App', 'xui.Module',{
                         "text":"Judge\nwhether third service\ncoverage"
                     }
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.rectComb")
@@ -559,7 +562,7 @@ xui.Class('App', 'xui.Module',{
                     }
                 })
                 .onClick("_ctl_rectcomb4_onclick")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.pathComb")
@@ -578,7 +581,7 @@ xui.Class('App', 'xui.Module',{
                         "text":"Service complete"
                     }
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.rectComb")
@@ -604,7 +607,7 @@ xui.Class('App', 'xui.Module',{
                     }
                 })
                 .onClick("_ctl_rectcomb4_onclick")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -628,7 +631,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("right")
                 .setToObj("ctl_rectcomb2")
                 .setToPoint("left")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -652,7 +655,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("bottom")
                 .setToObj("ctl_pathcomb6")
                 .setToPoint("top")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -676,7 +679,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("bottom")
                 .setToObj("ctl_pathcomb15")
                 .setToPoint("top")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -689,7 +692,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -713,7 +716,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("bottom")
                 .setToObj("ctl_pathcomb8")
                 .setToPoint("top")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -737,7 +740,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("bottom")
                 .setToObj("ctl_rectcomb3")
                 .setToPoint("top")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -750,7 +753,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -774,7 +777,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("bottom")
                 .setToObj("ctl_pathcomb10")
                 .setToPoint("top")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -798,7 +801,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("bottom")
                 .setToObj("ctl_pathcomb11")
                 .setToPoint("top")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -811,7 +814,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -835,7 +838,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("bottom")
                 .setToObj("ctl_pathcomb14")
                 .setToPoint("top")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -848,7 +851,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -872,7 +875,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("bottom")
                 .setToObj("ctl_pathcomb7")
                 .setToPoint("top")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -885,7 +888,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -909,7 +912,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("right")
                 .setToObj("ctl_pathcomb16")
                 .setToPoint("left")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -933,7 +936,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("top")
                 .setToObj("ctl_pathcomb17")
                 .setToPoint("bottom")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -958,7 +961,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("left")
                 .setToObj("ctl_rectcomb4")
                 .setToPoint("bottom")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -971,7 +974,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -995,7 +998,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("top")
                 .setToObj("ctl_pathcomb18")
                 .setToPoint("bottom")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -1020,7 +1023,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("top")
                 .setToObj("ctl_pathcomb18")
                 .setToPoint("right")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -1033,7 +1036,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -1058,7 +1061,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("right")
                 .setToObj("ctl_rectcomb33")
                 .setToPoint("left")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -1083,7 +1086,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("right")
                 .setToObj("ctl_rectcomb33")
                 .setToPoint("top")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -1106,7 +1109,7 @@ xui.Class('App', 'xui.Module',{
                 .setType("flowchart")
                 .setFromObj("ctl_pathcomb14")
                 .setFromPoint("right")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.pathComb")
@@ -1126,7 +1129,7 @@ xui.Class('App', 'xui.Module',{
                     }
                 })
                 .setVAlign("33.33%")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -1139,7 +1142,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"bold"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -1152,7 +1155,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -1176,7 +1179,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("right")
                 .setToObj("ctl_rectcomb4")
                 .setToPoint("left")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.connector")
@@ -1200,7 +1203,7 @@ xui.Class('App', 'xui.Module',{
                 .setFromPoint("right")
                 .setToObj("ctl_pathcomb18")
                 .setToPoint("left")
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -1213,7 +1216,7 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
             
             host.ctl_svgpaper29.append(
                 xui.create("xui.svg.text")
@@ -1226,7 +1229,12 @@ xui.Class('App', 'xui.Module',{
                     "font-size":"13px",
                     "font-weight":"normal"
                 })
-                );
+            );
+            
+            append(
+                xui.create("xui.MQTT")
+                .setHost(host,"xui_mqtt1")
+            );
             
             return children;
             // ]]Code created by CrossUI RAD Studio
